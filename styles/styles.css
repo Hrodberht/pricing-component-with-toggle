@@ -25,8 +25,14 @@ body {
     background-position-y: top;
 }
 
-header {
+.header__title {
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+.header__switch__option {
     font-size: 0.8em;
+    color: hsl(234, 14%, 74%);
 }
 
 .container {
@@ -37,11 +43,13 @@ header {
         "main"
         "footer";
 
-    grid-template-rows: 100px 1fr auto;
+    grid-template-rows: 80px 1fr auto;
     grid-gap: 10px;
 
     height: calc(100vh - 30px);
 }
+
+
 
 .attribution {
     font-size: 11px; text-align: center;
