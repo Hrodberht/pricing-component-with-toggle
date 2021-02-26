@@ -14,7 +14,14 @@ body {
     margin: 0 auto;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: hsl(233, 13%, 49%);
     text-align: center;
+    background-color: hsl(240, 78%, 98%);
+    background-image: url('../images/bg-top.svg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: top;
 }
 
 .container {
