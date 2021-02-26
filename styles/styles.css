@@ -1,18 +1,27 @@
 @import url('normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+html {
+    box-sizing: border-box;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
 .container {
     display: grid;
-  
+
     grid-template-areas:
-      "main"
-      "footer";
-  
-    grid-template-rows: 1fr auto;
+        "header"
+        "main"
+        "footer";
+
+    grid-template-rows: 100px 1fr auto;
     grid-gap: 10px;
-  
+
     height: calc(100vh - 10px);
-  }
+}
 
 .attribution {
     font-size: 11px; text-align: center;
