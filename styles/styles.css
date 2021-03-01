@@ -35,6 +35,65 @@ body {
     color: hsl(234, 14%, 74%);
 }
 
+.subscription-plan {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-plan:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.subscription-plan__option {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.subscription-plan__price {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 2.7em;
+    color: hsl(232, 13%, 33%);
+}
+
+.subscription-plan__price--annually {
+    display: none;
+}
+
+.subscription-plan__features {
+    padding-left: 0;
+    margin-bottom: 27px;
+    list-style: none;
+}
+
+.subscription-plan__features__item {
+    padding: 12px;
+    font-size: 0.7em;
+    border-top: 1px solid hsl(240, 9%, 85%);
+}
+
+.subscription-plan__features__item:last-child {
+    border-bottom: 1px solid hsl(240, 9%, 85%);
+}
+
+.subscription-plan__learn-more {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: hsl(240, 78%, 98%);
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+}
+
+
 .container {
     display: grid;
 
@@ -43,13 +102,11 @@ body {
         "main"
         "footer";
 
-    grid-template-rows: 80px 1fr auto;
+    grid-template-rows: 120px 1fr auto;
     grid-gap: 10px;
 
     height: calc(100vh - 30px);
 }
-
-
 
 .attribution {
     font-size: 11px; text-align: center;
