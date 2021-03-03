@@ -200,3 +200,47 @@ input:checked + .switch__toggle__slider:before {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (min-width: 960px) {
+    body {
+        max-width: 980px;   
+    } 
+
+    main {
+        display: grid;
+    
+        grid-template-areas:
+        "subscription-plan subscription-plan subscription-plan";
+    
+        grid-template-columns: 33% 33% 33%;
+      }
+
+    .subscription-plan {
+        width: 400px;
+        height: 380px;
+    }
+
+    .subscription-plan--basic {
+        height: 330px;
+        padding-top: 10px;
+        position: relative;
+        top: 25px;
+        left: 77px;
+        z-index: 1;
+    }
+
+    .subscription-plan--master {
+        height: 330px;
+        padding-top: 10px;
+        position: relative;
+        top: 25px;
+        right: 77px;
+        z-index: 1;
+    }
+
+    .subscription-plan--professional {
+        padding-top: 35px;
+        position: relative;
+        z-index: 2;    
+    }
+}
