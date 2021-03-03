@@ -44,6 +44,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.subscription-plan--purple {
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+}
+
 .subscription-plan:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -58,6 +63,10 @@ body {
     margin-bottom: 25px;
     font-size: 2.7em;
     color: hsl(232, 13%, 33%);
+}
+
+.subscription-plan__price--purple {
+    color: white;
 }
 
 .subscription-plan__price--annually {
@@ -93,6 +102,11 @@ body {
     letter-spacing: 1px;
 }
 
+.subscription-plan_learn-more--purple {
+    background-image: none;
+    background-color: white;
+    color: hsl(237, 63%, 64%);
+}
 
 .container {
     display: grid;
