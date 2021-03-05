@@ -24,6 +24,19 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+## My Personal Progress
+
+This challenge is [project #6](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) as part of Matt Studdert's [16 front-end projects (with designs) to help improve your coding skills](https://dev.to/frontendmentor/16-front-end-projects-with-designs-to-help-improve-your-coding-skills-5ajl).
+
+An overview of my progress on these challenges can be found below:
+
+1) [Single price grid component](https://github.com/Hrodberht/single-price-grid-component-master)
+2) [Four card feature section](https://github.com/Hrodberht/four-card-feature-section)
+3) [Huddle landing page with a single introductory section](https://github.com/Hrodberht/Huddle-landing-page-with-a-single-introductory-section)
+4) [Base Apparel coming soon page](https://github.com/Hrodberht/base-apparel-coming-soon)
+5) [Intro component with sign up form](https://github.com/Hrodberht/intro-component-with-signup-form)
+6) [Pricing component with toggle master](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC)
+
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to, as well as a design for the active states.
