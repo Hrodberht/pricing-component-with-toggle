@@ -68,7 +68,11 @@ body {
 
 input:checked + .switch__toggle__slider {
     background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-  }
+}
+
+input:checked:hover + .switch__toggle__slider {
+    opacity: 50%;
+}
   
 input:focus + .switch__toggle__slider {
     box-shadow: 0 0 1px hsl(237, 63%, 64%);
@@ -169,10 +173,23 @@ input:checked + .switch__toggle__slider:before {
     letter-spacing: 1px;
 }
 
+.subscription-plan__learn-more:hover {
+    background-image: none;
+    background-color: white;
+    color:hsl(237, 63%, 64%);
+    border: 1px solid hsl(237, 63%, 64%);
+}
+
 .subscription-plan_learn-more--purple {
     background-image: none;
     background-color: white;
     color: hsl(237, 63%, 64%);
+}
+
+.subscription-plan_learn-more--purple:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 /* Holy Grail */
