@@ -108,6 +108,7 @@ input:checked + .switch__toggle__slider:before {
 
 .subscription-plan {
     max-width: 250px;
+    height: 340px;
     margin: 0 auto;
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
@@ -166,6 +167,7 @@ input:checked + .switch__toggle__slider:before {
     padding: 10px;
     background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color: hsl(240, 78%, 98%);
+    border: 1px transparent white;
     border-radius: 3px;
     text-decoration: none;
     text-transform: uppercase;
@@ -184,6 +186,7 @@ input:checked + .switch__toggle__slider:before {
     background-image: none;
     background-color: white;
     color: hsl(237, 63%, 64%);
+    border: 1px transparent;
 }
 
 .subscription-plan_learn-more--purple:hover {
@@ -205,13 +208,15 @@ input:checked + .switch__toggle__slider:before {
     grid-template-rows: 130px 1fr auto;
     grid-gap: 10px;
 
-    height: calc(100vh - 30px);
+    height: calc(100vh - 20px);
 }
 
 /* Footer */
 
 .attribution {
-    font-size: 11px; text-align: center;
+    height: 30px;
+    font-size: 11px; 
+    text-align: center;
 }
 
 .attribution a {
@@ -221,7 +226,13 @@ input:checked + .switch__toggle__slider:before {
 @media only screen and (min-width: 960px) {
     body {
         max-width: 980px;   
-    } 
+        background-image: url('../images/bg-top.svg'),
+                          url('../images/bg-bottom.svg');
+        background-repeat: no-repeat;
+        background-size: 270px;
+        background-position-x: right, left;
+        background-position-y: top, bottom;
+    }
 
     main {
         display: grid;
