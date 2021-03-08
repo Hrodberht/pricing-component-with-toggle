@@ -21,8 +21,8 @@
         <span class="header__switch__option">Annually</span>
 
         <label class="switch__toggle">
-          <input type="checkbox">
-          <span class="switch__toggle__slider switch__toggle__slider--round"></span>
+          <input type="checkbox" autocomplete="off">
+          <span class="switch__toggle__slider switch__toggle__slider--round" id="switch_toggle_button"></span>
         </label>
         
         <span class="header__switch__option">Monthly</span>
@@ -35,8 +35,8 @@
           Basic
         </h2>
 
-        <strong class="subscription-plan__price subscription-plan__price--monthly">&dollar;19.99</strong>
-        <strong class="subscription-plan__price subscription-plan__price--annually">&dollar;199.99</strong>
+        <strong class="subscription-plan__price subscription-plan--hidden" id="subscription-plan__price--monthly">&dollar;19.99</strong>
+        <strong class="subscription-plan__price" id="subscription-plan__price--annually">&dollar;199.99</strong>
 
         <ul class="subscription-plan__features">
           <li class="subscription-plan__features__item">500 GB Storage</li>
@@ -52,8 +52,8 @@
           Professional
         </h2>
 
-        <strong class="subscription-plan__price subscription-plan__price--monthly subscription-plan__price--purple">&dollar;24.99</strong>
-        <strong class="subscription-plan__price subscription-plan__price--annually subscription-plan__price--purple">&dollar;249.99</strong>
+        <strong class="subscription-plan__price subscription-plan__price--purple subscription-plan--hidden" id="subscription-plan__price--monthly">&dollar;24.99</strong>
+        <strong class="subscription-plan__price subscription-plan__price--purple" id="subscription-plan__price--annually">&dollar;249.99</strong>
 
         <ul class="subscription-plan__features">
           <li class="subscription-plan__features__item">1 TB Storage</li>
@@ -69,8 +69,8 @@
           Master
         </h2>
 
-        <strong class="subscription-plan__price subscription-plan__price--monthly">&dollar;39.99</strong>
-        <strong class="subscription-plan__price subscription-plan__price--annually">&dollar;399.99</strong>
+        <strong class="subscription-plan__price subscription-plan--hidden" id="subscription-plan__price--monthly">&dollar;39.99</strong>
+        <strong class="subscription-plan__price" id="subscription-plan__price--annually">&dollar;399.99</strong>
 
         <ul class="subscription-plan__features">
           <li class="subscription-plan__features__item">2 TB Storage</li>
@@ -89,5 +89,6 @@
       </div>
     </footer>
   </div>
+  <script src="scripts/script.js"></script>
 </body>
 </html>

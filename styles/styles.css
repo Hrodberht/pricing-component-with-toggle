@@ -141,7 +141,7 @@ input:checked + .switch__toggle__slider:before {
     color: white;
 }
 
-.subscription-plan__price--annually {
+.subscription-plan--hidden {
     display: none;
 }
 
