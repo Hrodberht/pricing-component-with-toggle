@@ -1,5 +1,7 @@
 # Frontend Mentor - File Transfer pricing component
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14710fb6-cd5d-4a57-abd2-c165276a8e17/deploy-status)](https://app.netlify.com/sites/pricing-component-mentor/deploys)
+
 ![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
